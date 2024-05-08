@@ -1,0 +1,32 @@
+export default {
+  Transactrecord: {
+    funddetails: 'Chi tiết tài chính',
+    all: 'Toàn bộ',
+    topup: 'Nạp tiền',
+    withdraw: 'Rút tiền',
+    rebate: 'Hoàn trả',
+    filter: 'Bộ lọc',
+    today: 'Hôm nay',
+    yesterday: 'Hôm qua',
+    sevendays: '7 ngày',
+    tip1: '30 ngày',
+    totalrevenue: 'Tổng tiền vào:',
+    Totalbilling: 'Tổng tiền ra:',
+    transfer: 'Chuyển sảnh game',
+    dividend: 'Khuyến mãi',
+    Systemadjust: 'Khác',
+    livestream: 'Livestream',
+    success: 'Thành công ',
+    UnderReview:'Đang xét duyệt',
+    fail: 'Thất bại',
+    Process: 'Đang xử lý',
+    nomore: 'Đã xem hết',
+    tip2: 'Chưa có ghi chép mới',
+    rechargenow: 'Nạp tiền ngay',
+    tip3: 'Cập nhật dữ liệu thất bại',
+    Fundtype: 'Loại giao dịch',
+    Fundingstatus: 'Trạng thái giao dich',
+    reset: 'Đặt lại',
+    sure: 'Xác nhận'
+  }
+}

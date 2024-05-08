@@ -1,0 +1,25 @@
+:root {
+  /* 主题色 */
+  --color-primary: #ff5000;
+  /* 默认文本颜色 */
+  --color-text: #555;
+  /* 浅色文本字体 */
+  --color-text-light: #888;
+  /* 深色文本颜色 */
+  --color-text-dark: #000;
+  /* 默认背景色 */
+  --color-background: #fafafa;
+  /* 黄色 */
+  --color-yellow: #ffaf56;
+  /* 橙色 */
+  --color-orange: #ff9000;
+  /* 红色、警告色 */
+  --color-danger: #f53f3f;
+  /* 成功色 */
+  --color-green: #00B42A;
+
+  --outline-dark-update-layout: rgba(38, 36, 64,0.5);
+  /* 时间选择器背景 */
+
+
+}

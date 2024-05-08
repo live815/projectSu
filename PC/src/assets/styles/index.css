@@ -1,0 +1,6 @@
+
+@import 'element-plus/dist/index.css';
+@import './var.css';
+@import './base.scss';
+@import './transition.scss';
+@import 'nprogress/nprogress.css'

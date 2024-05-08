@@ -1,0 +1,302 @@
+{
+  "hash": "2cec4103",
+  "browserHash": "65e910ff",
+  "optimized": {
+    "@element-plus/icons-vue": {
+      "src": "../../node_modules/@element-plus/icons-vue/dist/index.js",
+      "file": "@element-plus_icons-vue.js",
+      "fileHash": "d6e5adb2",
+      "needsInterop": false
+    },
+    "@tencentcloud/chat": {
+      "src": "../../node_modules/@tencentcloud/chat/index.js",
+      "file": "@tencentcloud_chat.js",
+      "fileHash": "5a59cff4",
+      "needsInterop": true
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "8607f0b8",
+      "needsInterop": false
+    },
+    "clipboard": {
+      "src": "../../node_modules/clipboard/dist/clipboard.js",
+      "file": "clipboard.js",
+      "fileHash": "49087d39",
+      "needsInterop": true
+    },
+    "dayjs": {
+      "src": "../../node_modules/dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "3323d6a5",
+      "needsInterop": true
+    },
+    "element-plus": {
+      "src": "../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "fd8afff8",
+      "needsInterop": false
+    },
+    "element-plus/dist/locale/en.mjs": {
+      "src": "../../node_modules/element-plus/dist/locale/en.mjs",
+      "file": "element-plus_dist_locale_en__mjs.js",
+      "fileHash": "3ca2177c",
+      "needsInterop": false
+    },
+    "element-plus/dist/locale/vi.mjs": {
+      "src": "../../node_modules/element-plus/dist/locale/vi.mjs",
+      "file": "element-plus_dist_locale_vi__mjs.js",
+      "fileHash": "49a06cde",
+      "needsInterop": false
+    },
+    "element-plus/dist/locale/zh-cn.mjs": {
+      "src": "../../node_modules/element-plus/dist/locale/zh-cn.mjs",
+      "file": "element-plus_dist_locale_zh-cn__mjs.js",
+      "fileHash": "f5ada7f3",
+      "needsInterop": false
+    },
+    "good-storage": {
+      "src": "../../node_modules/good-storage/dist/storage.esm.js",
+      "file": "good-storage.js",
+      "fileHash": "52327ee5",
+      "needsInterop": false
+    },
+    "hammerjs": {
+      "src": "../../node_modules/hammerjs/hammer.js",
+      "file": "hammerjs.js",
+      "fileHash": "2b320c96",
+      "needsInterop": true
+    },
+    "js-base64": {
+      "src": "../../node_modules/js-base64/base64.mjs",
+      "file": "js-base64.js",
+      "fileHash": "a1f601e2",
+      "needsInterop": false
+    },
+    "lodash": {
+      "src": "../../node_modules/lodash/lodash.js",
+      "file": "lodash.js",
+      "fileHash": "df5e4791",
+      "needsInterop": true
+    },
+    "mitt": {
+      "src": "../../node_modules/mitt/dist/mitt.mjs",
+      "file": "mitt.js",
+      "fileHash": "f065f2cf",
+      "needsInterop": false
+    },
+    "nanoid": {
+      "src": "../../node_modules/nanoid/index.browser.js",
+      "file": "nanoid.js",
+      "fileHash": "eac0f3a7",
+      "needsInterop": false
+    },
+    "pinia": {
+      "src": "../../node_modules/pinia/dist/pinia.mjs",
+      "file": "pinia.js",
+      "fileHash": "7fdfc7b4",
+      "needsInterop": false
+    },
+    "qrcode": {
+      "src": "../../node_modules/qrcode/lib/browser.js",
+      "file": "qrcode.js",
+      "fileHash": "5c6fef82",
+      "needsInterop": true
+    },
+    "swiper": {
+      "src": "../../node_modules/swiper/swiper.mjs",
+      "file": "swiper.js",
+      "fileHash": "1688d420",
+      "needsInterop": false
+    },
+    "tim-profanity-filter-plugin": {
+      "src": "../../node_modules/tim-profanity-filter-plugin/index.js",
+      "file": "tim-profanity-filter-plugin.js",
+      "fileHash": "8927dcf3",
+      "needsInterop": true
+    },
+    "tim-upload-plugin": {
+      "src": "../../node_modules/tim-upload-plugin/index.js",
+      "file": "tim-upload-plugin.js",
+      "fileHash": "36d43164",
+      "needsInterop": true
+    },
+    "vconsole": {
+      "src": "../../node_modules/vconsole/dist/vconsole.min.js",
+      "file": "vconsole.js",
+      "fileHash": "a87b343f",
+      "needsInterop": true
+    },
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "e1524f74",
+      "needsInterop": false
+    },
+    "vue-i18n": {
+      "src": "../../node_modules/vue-i18n/dist/vue-i18n.mjs",
+      "file": "vue-i18n.js",
+      "fileHash": "279d26ea",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../node_modules/vue-router/dist/vue-router.mjs",
+      "file": "vue-router.js",
+      "fileHash": "91d7d403",
+      "needsInterop": false
+    },
+    "element-plus/es": {
+      "src": "../../node_modules/element-plus/es/index.mjs",
+      "file": "element-plus_es.js",
+      "fileHash": "3063f55d",
+      "needsInterop": false
+    },
+    "element-plus/es/components/base/style/css": {
+      "src": "../../node_modules/element-plus/es/components/base/style/css.mjs",
+      "file": "element-plus_es_components_base_style_css.js",
+      "fileHash": "7858ab49",
+      "needsInterop": false
+    },
+    "element-plus/es/components/container/style/css": {
+      "src": "../../node_modules/element-plus/es/components/container/style/css.mjs",
+      "file": "element-plus_es_components_container_style_css.js",
+      "fileHash": "aa5c3d69",
+      "needsInterop": false
+    },
+    "element-plus/es/components/main/style/css": {
+      "src": "../../node_modules/element-plus/es/components/main/style/css.mjs",
+      "file": "element-plus_es_components_main_style_css.js",
+      "fileHash": "96573f7c",
+      "needsInterop": false
+    },
+    "element-plus/es/components/header/style/css": {
+      "src": "../../node_modules/element-plus/es/components/header/style/css.mjs",
+      "file": "element-plus_es_components_header_style_css.js",
+      "fileHash": "c478f284",
+      "needsInterop": false
+    },
+    "element-plus/es/components/dialog/style/css": {
+      "src": "../../node_modules/element-plus/es/components/dialog/style/css.mjs",
+      "file": "element-plus_es_components_dialog_style_css.js",
+      "fileHash": "c107e4ab",
+      "needsInterop": false
+    },
+    "element-plus/es/components/badge/style/css": {
+      "src": "../../node_modules/element-plus/es/components/badge/style/css.mjs",
+      "file": "element-plus_es_components_badge_style_css.js",
+      "fileHash": "f4f24afe",
+      "needsInterop": false
+    },
+    "element-plus/es/components/message/style/css": {
+      "src": "../../node_modules/element-plus/es/components/message/style/css.mjs",
+      "file": "element-plus_es_components_message_style_css.js",
+      "fileHash": "f69f8799",
+      "needsInterop": false
+    },
+    "element-plus/es/components/aside/style/css": {
+      "src": "../../node_modules/element-plus/es/components/aside/style/css.mjs",
+      "file": "element-plus_es_components_aside_style_css.js",
+      "fileHash": "c7792c11",
+      "needsInterop": false
+    },
+    "element-plus/es/components/menu/style/css": {
+      "src": "../../node_modules/element-plus/es/components/menu/style/css.mjs",
+      "file": "element-plus_es_components_menu_style_css.js",
+      "fileHash": "82155d14",
+      "needsInterop": false
+    },
+    "element-plus/es/components/menu-item/style/css": {
+      "src": "../../node_modules/element-plus/es/components/menu-item/style/css.mjs",
+      "file": "element-plus_es_components_menu-item_style_css.js",
+      "fileHash": "b841512f",
+      "needsInterop": false
+    },
+    "element-plus/es/components/carousel/style/css": {
+      "src": "../../node_modules/element-plus/es/components/carousel/style/css.mjs",
+      "file": "element-plus_es_components_carousel_style_css.js",
+      "fileHash": "486d3db0",
+      "needsInterop": false
+    },
+    "element-plus/es/components/carousel-item/style/css": {
+      "src": "../../node_modules/element-plus/es/components/carousel-item/style/css.mjs",
+      "file": "element-plus_es_components_carousel-item_style_css.js",
+      "fileHash": "316d15f3",
+      "needsInterop": false
+    },
+    "element-plus/es/components/checkbox/style/css": {
+      "src": "../../node_modules/element-plus/es/components/checkbox/style/css.mjs",
+      "file": "element-plus_es_components_checkbox_style_css.js",
+      "fileHash": "0fc7cfdc",
+      "needsInterop": false
+    },
+    "element-plus/es/components/upload/style/css": {
+      "src": "../../node_modules/element-plus/es/components/upload/style/css.mjs",
+      "file": "element-plus_es_components_upload_style_css.js",
+      "fileHash": "8fcf5dcf",
+      "needsInterop": false
+    },
+    "element-plus/es/components/icon/style/css": {
+      "src": "../../node_modules/element-plus/es/components/icon/style/css.mjs",
+      "file": "element-plus_es_components_icon_style_css.js",
+      "fileHash": "4d08e84a",
+      "needsInterop": false
+    },
+    "element-plus/es/components/radio/style/css": {
+      "src": "../../node_modules/element-plus/es/components/radio/style/css.mjs",
+      "file": "element-plus_es_components_radio_style_css.js",
+      "fileHash": "dbf44904",
+      "needsInterop": false
+    },
+    "element-plus/es/components/loading/style/css": {
+      "src": "../../node_modules/element-plus/es/components/loading/style/css.mjs",
+      "file": "element-plus_es_components_loading_style_css.js",
+      "fileHash": "96ccce46",
+      "needsInterop": false
+    },
+    "element-plus/es/components/popover/style/css": {
+      "src": "../../node_modules/element-plus/es/components/popover/style/css.mjs",
+      "file": "element-plus_es_components_popover_style_css.js",
+      "fileHash": "dbfe1059",
+      "needsInterop": false
+    },
+    "element-plus/es/components/message-box/style/css": {
+      "src": "../../node_modules/element-plus/es/components/message-box/style/css.mjs",
+      "file": "element-plus_es_components_message-box_style_css.js",
+      "fileHash": "9ba5ac0c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-YLQIMJ27": {
+      "file": "chunk-YLQIMJ27.js"
+    },
+    "chunk-RQRCPATG": {
+      "file": "chunk-RQRCPATG.js"
+    },
+    "chunk-AV5GHUKR": {
+      "file": "chunk-AV5GHUKR.js"
+    },
+    "chunk-3DKSPMWR": {
+      "file": "chunk-3DKSPMWR.js"
+    },
+    "chunk-3GOOGFKQ": {
+      "file": "chunk-3GOOGFKQ.js"
+    },
+    "chunk-JIBACVCH": {
+      "file": "chunk-JIBACVCH.js"
+    },
+    "chunk-YNNGIMFY": {
+      "file": "chunk-YNNGIMFY.js"
+    },
+    "chunk-GUC4ETOA": {
+      "file": "chunk-GUC4ETOA.js"
+    },
+    "chunk-TUZQ4QFD": {
+      "file": "chunk-TUZQ4QFD.js"
+    },
+    "chunk-UXIASGQL": {
+      "file": "chunk-UXIASGQL.js"
+    }
+  }
+}

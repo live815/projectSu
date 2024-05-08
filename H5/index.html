@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="./public/favicon.ico" />
+  <!-- 这行代码是在指定一个用于 Apple 设备的网页图标。当你的网页被添加到 iOS 设备（例如 iPhone 或 iPad）的主屏幕上时，这个图标会被用作应用图标 -->
+  <link rel="apple-touch-icon-precomposed" href="/pure-logo.png" />
+  <!-- 指示该网页在全屏模式下运行（即在添加到主屏幕后）时能够表现得像一个应用 -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta content="telephone=no" name="format-detection" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="" rel="stylesheet" />
+  <script>
+    // 判断设备跳转
+    function isPC() {
+      var userAgentInfo = navigator.userAgent
+      var Agents = new Array('Android', 'iPhone', 'SymbianOS', 'Windows Phone', 'iPad', 'iPod')
+      var flag = true
+      for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+          flag = false
+          break
+        }
+      }
+      return flag
+    }
+    // 如果为pc设备访问mobile，则跳转pc
+    // if (isPC()) {
+    //   var href = window.location.href
+    //   var result = /m\./.exec(href)
+    //   // 如果链接中带m.标识
+    //   if (
+    //     result &&
+    //     window.location.hostname !== 'localhost' &&
+    //     !window.location.href.includes('vnm.')
+    //   ) {
+    //     var url = href.replace(/m\./, 'www.')
+    //     window.location.href = url
+    //   }
+    //   var result2 = /m9\./.exec(href)
+    //   if (result2 && window.location.hostname !== 'localhost') {
+    //     var url = href.replace(/m9\./, 'w9.')
+    //     window.location.href = url
+    //   }
+    // }
+  </script>
+  <!-- 移动端viewport -->
+  <script>
+    var coverSupport =
+      'CSS' in window &&
+      typeof CSS.supports === 'function' &&
+      (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+    document.write(
+      '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+      (coverSupport ? ', viewport-fit=cover' : '') +
+      '" />'
+    )
+  </script>
+  <script>
+    // 设置设备视图有效高度
+    const appHeight = () => {
+      const doc = document.documentElement
+      doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+    }
+    window.addEventListener('resize', appHeight)
+    appHeight()
+    // test
+    console.log('%VITE_SITE%')
+    window.addEventListener('orientationchange', function () {
+      appHeight()
+    })
+
+  </script>
+  <!-- 统计51.LA -->
+  <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+  <script>LA.init({ id: "3HvuSCbqgNDfr7KF", ck: "3HvuSCbqgNDfr7KF" })</script>
+  <title>VSport</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+  <script>
+    if ('%VITE_SITE%' === 'vietnam') {
+      document.body.classList.add('vietnam')
+    }
+    // 阻止移动设备上的手势操作（例如缩放）触发默认行为
+    document.addEventListener('gesturestart', function (e) {
+      e.preventDefault(); // 阻止默认行为
+    });
+  </script>
+  <script src="https://static.botion.com/v1/boc.js"></script>
+</body>
+
+</html>

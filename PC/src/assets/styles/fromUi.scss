@@ -1,0 +1,360 @@
+:deep() {
+  // 表格内容hover内容颜色改变
+  .el-table__body tr:hover > td.el-table__cell {
+    background-color: #171a2f;
+  }
+  // 表格内容样式
+  .el-table tr {
+    background-color: #272b45;
+    color: var(--100, #fff);
+  }
+  // 表格头部颜色样式
+  .el-table {
+    --el-table-border-color: 1px solid rgba(255, 255, 255, 0.2);
+    --el-table-header-bg-color: var(--unnamed, #171a2f);
+    --el-table-border: 1px solid rgba(255, 255, 255, 0.2);
+    --el-table-row-hover-bg-color: none;
+  }
+  // 表格边框
+  .el-table__inner-wrapper {
+    border: 1px solid;
+    border-bottom: none;
+  }
+  // 多选框颜色修改
+  .el-checkbox__inner {
+    background-color: #272b45;
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+  .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #f35f1b;
+    border-color: #f35f1b;
+  }
+  // 输入框颜色改变
+  .el-input__wrapper {
+    background-color: #272b45;
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  // 输入框内容颜色修改
+  .el-input__inner {
+    color: var(--100, #fff);
+    font-size: 14px;
+    font-style: normal;
+    caret-color: var(--100, #fff);
+  }
+  // 至的颜色修改
+  .el-date-editor .el-range-separator {
+    color: var(--100, #fff);
+    font-size: 12px;
+    font-style: normal;
+  }
+  // 时间显示内容颜色修改
+  .el-date-editor .el-range-input {
+    color: var(--100, #fff);
+    font-size: 12px;
+    font-style: normal;
+    caret-color: var(--100, #fff);
+  }
+  //
+  .el-checkbox__input.is-checked .el-checkbox__inner {
+    background-color: #f35f1b;
+    border-color: #f35f1b;
+  }
+  .el-checkbox__inner:hover {
+    border-color: #f35f1b;
+  }
+  //操作颜色样式
+  .el-table__body-wrapper tr td.el-table-fixed-column--right {
+    background: #272b45;
+  }
+  .el-scrollbar__wrap--hidden-default {
+    background: #272b45 !important;
+  }
+  .el-table.is-scrolling-left .el-table-fixed-column--right.is-first-column::before {
+    box-shadow: none;
+  }
+  .el-form--inline .el-form-item {
+    margin-right: 10px;
+  }
+  // label颜色
+  .el-form-item__label {
+    color: var(--100, #fff);
+    text-align: right;
+    font-size: 14px;
+  }
+  //分页
+  .el-pagination__total,
+  .el-pagination__jump {
+    color: var(--60, rgba(255, 255, 255, 0.6));
+    font-size: 14px;
+  }
+  //单选
+  .el-radio__inner {
+    background-color: #272b45;
+    border: 1px solid #9292bf;
+  }
+  .el-radio__input.is-checked .el-radio__inner,
+  .el-checkbox__input.is-checked .el-checkbox__inner {
+    border-color: #f35f1b !important;
+    background: #f35f1b !important;
+  }
+  .el-radio__input.is-checked + .el-radio__label {
+    color: #f35f1b !important;
+  }
+}
+.el-picker__popper {
+  /* 整体边框去除 */
+  --el-datepicker-border-color: none;
+}
+.el-select__popper.el-popper {
+  /* 下拉框颜色样式修改 */
+  background: var(--unnamed, #1d223c);
+  border: 1px solid #1d223c;
+}
+.el-select-dropdown__item:hover {
+  background: #171a2f;
+}
+.el-select-dropdown__item.selected {
+  color: var(--80, var(---80, rgba(255, 255, 255, 0.8)));
+}
+.el-select {
+  --el-select-border-color-hover: none;
+  --el-select-input-focus-border-color: none;
+}
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+  /* 鼠标移出颜色改变 */
+  background-color: #171a2f;
+}
+.el-select-dropdown__item {
+  /* 字体 */
+  color: var(--80, var(---80, rgba(255, 255, 255, 0.8)));
+  font-size: 14px;
+  font-style: normal;
+}
+.el-popper.is-light .el-popper__arrow::before {
+  /* 三角形背景颜色 */
+  background: var(--unnamed, #1d223c);
+  border: 1px solid #1d223c;
+}
+.el-picker-panel {
+  /* 时间选择器字体颜色 */
+  color: var(--60, rgba(255, 255, 255, 0.6));
+  font-size: 12px;
+  background: #171a2f;
+}
+.el-date-range-picker {
+  /* 时间选择器字体颜色 */
+  --el-datepicker-active-color: #171a2f;
+  --el-datepicker-inrange-hover-bg-color: #272b45;
+  --el-datepicker-inrange-bg-color: #272b45;
+  --el-datepicker-inner-border-color: var(--el-disabled-border-color);
+  --el-datepicker-hover-text-color: #fff;
+  --el-datepicker-off-text-color: var(--20, rgba(255, 255, 255, 0.2));
+}
+.el-input__inner {
+  /* 时间选择器第一排字体颜色 */
+  color: var(--60, rgba(255, 255, 255, 0.6));
+}
+.el-input__wrapper {
+  /* 时间选择器第一排背景颜色 */
+  background: #171a2f;
+  // box-shadow: none;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid #272b45;
+}
+.el-input.is-disabled .el-input__wrapper {
+  background: #272b45;
+  box-shadow: none;
+  border: 1px solid #272b45;
+}
+.el-range-editor.el-input__wrapper:hover {
+  box-shadow: none;
+}
+.el-picker-panel__footer {
+  /* 时间选择器底部背景颜色 */
+  background: #171a2f;
+}
+.el-button.is-text:not(.is-disabled):hover {
+  background: #272b45;
+}
+.el-button.is-text {
+  /* 底部清空按钮 */
+  color: var(--80, var(---80, rgba(255, 255, 255, 0.8)));
+  font-size: 14px;
+  font-style: normal;
+  border: 1px solid #272b45;
+}
+
+.el-button.is-plain {
+  /* 底部确定按钮 */
+  --el-button-hover-text-color: var(--80, var(---80, rgba(255, 255, 255, 0.8)));
+  --el-button-hover-bg-color: #171a2f;
+  border: 1px solid #272b45;
+}
+.el-button.is-disabled,
+.el-button.is-disabled:hover {
+  background-color: #171a2f;
+}
+.el-button {
+  --el-button-bg-color: #171a2f;
+  border-color: #272b45;
+  color: var(--80, var(---80, rgba(255, 255, 255, 0.8)));
+  font-size: 14px;
+  font-style: normal;
+}
+// .el-button:hover {
+//   background: #272b45;
+// }
+.el-date-table th {
+  /* 边框颜色修改 */
+  border-bottom: 1px solid #272b45;
+}
+.el-date-range-picker__content.is-left {
+  border-right: 1px solid #272b45;
+}
+.el-date-range-picker__time-header {
+  border-bottom: 1px solid #272b45;
+}
+.el-picker-panel__footer {
+  border-top: 1px solid #272b45;
+}
+.el-date-table td.today .el-date-table-cell__text {
+  /* 默认日期时间颜色更改 */
+  color: var(--el-datepicker-hover-text-color);
+  font-weight: 400;
+}
+.el-input {
+  /* 时间内部样式修改 */
+  --el-input-hover-border-color: none;
+  --el-input-clear-hover-color: none;
+  --el-input-focus-border-color: none;
+}
+// .el-date-range-picker__time-header {
+//   display: none;
+// }
+//时间组件选中按钮变色
+.el-date-table td.current:not(.disabled) .el-date-table-cell__text {
+  background-color: #f35f1b !important;
+  color: #fff !important;
+}
+// 禁用日期按钮置灰
+.el-date-table td.disabled .el-date-table-cell{
+  background-color: #1d1e1f !important;
+}
+//光标移动字体变色
+// .el-date-table-cell .el-date-table-cell__text:hover{
+//   color: #F35F1B !important;
+// }
+// .el-date-table-cell:hover{
+//   color: #F35F1B !important;
+// }
+.el-date-picker__time-header {
+  border-bottom: none !important;
+}
+.el-date-table td.today .el-date-table-cell__text {
+  color: #f35f1b !important;
+}
+
+.el-date-table td.start-date .el-date-table-cell__text {
+  color: #fff !important;
+}
+.el-date-table td.end-date .el-date-table-cell__text {
+  color: #fff !important;
+}
+
+.el-date-table-cell:hover {
+  color: #f35f1b;
+}
+//日期时间框 时间样式
+.el-date-picker,
+.el-picker-panel__body .el-time-panel {
+  background-color: #1d223c;
+  border: none;
+}
+.el-time-panel__footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.el-time-panel__footer .cancel {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+.el-time-panel__footer .confirm {
+  color: #f35f1b;
+}
+.el-time-spinner__item.is-active:not(.is-disabled) {
+  color: #fff !important;
+}
+.el-time-spinner__item:hover:not(.is-disabled):not(.is-active) {
+  background: #f35f1b;
+  color: #fff;
+  cursor: pointer;
+}
+.el-date-picker__header i svg {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+.el-time-panel__content::before {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.el-date-range-picker__header i svg {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+.el-date-table td.end-date .el-date-table-cell__text,
+.el-date-table td.start-date .el-date-table-cell__text {
+  background: #f35f1b !important;
+}
+//修改弹窗样式
+.el-message-box {
+  background-color: #232949 !important;
+  border: none !important;
+}
+.el-message-box__header {
+  background: #323c6f !important;
+  .el-message-box__title {
+    color: #fff;
+  }
+  .el-message-box__close {
+    color: #fff;
+    font-size: 22px;
+  }
+  .el-message-box__close:hover {
+    color: #fff;
+  }
+}
+.el-message-box__content {
+  .el-message-box-icon--warning {
+    color: #fff;
+  }
+  .el-message-box__message {
+    color: #fff;
+  }
+}
+.el-message-box__btns {
+  .el-button {
+    border-radius: 4px;
+    background: #171a2f;
+    box-shadow: 0px 30px 60px 0px rgba(0, 0, 0, 0.5);
+    border: none !important;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .el-button--primary {
+    border-radius: 4px;
+    background: linear-gradient(90deg, #ff9000 25%, #f35f1b 89.06%) !important;
+    border: none !important;
+    color: rgba(255, 255, 255, 0.8);
+    --el-button-hover-bg-color: none;
+    --el-button-hover-link-text-color: none;
+    --el-button-outline-color: none;
+  }
+  .el-button:hover {
+    border: none !important;
+    color: #fff;
+  }
+}
+
+.select-trigger .is-focus .el-input__wrapper {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.select-trigger .el-input--suffix .is-focus {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

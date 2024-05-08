@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./public/favicon.ico" />
+    <title>VSport</title>
+    <style>
+      #onlinehelp-button-850059ff-b70a-4dbc-a355-75fc605cf9a3 iframe {
+        position: fixed;
+        bottom: 50px !important;
+      }
+
+      #onlinehelp-button-78ef8a66-9626-4603-bbd3-21349c1526a2 iframe {
+        position: fixed;
+        bottom: 50px !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+
+    <script>
+      if ('%VITE_SITE%' === 'vietnam') {
+        document.body.classList.add('vietnam')
+      }
+    </script>
+    <!-- 中国站客服组件 Begin Live Chat Code-->
+    <div id="onlinehelp-button-850059ff-b70a-4dbc-a355-75fc605cf9a3" style="display: none"></div>
+    <script type="text/javascript">
+      if ('%VITE_SITE%' === 'cn') {
+        var OnlineHelpAPI = OnlineHelpAPI || {}
+        OnlineHelpAPI.chatGroup = 1
+        ;(function (t) {
+          function e(e) {
+            var a = document.createElement('script'),
+              c = document.getElementsByTagName('script')[0]
+            ;(a.type = 'text/javascript'),
+              (a.async = !0),
+              (a.src = e + t.site_id),
+              c.parentNode.insertBefore(a, c)
+          }
+          ;(t.chat_buttons = t.chat_buttons || []),
+            t.chat_buttons.push({
+              code_plan: '850059ff-b70a-4dbc-a355-75fc605cf9a3',
+              div_id: 'onlinehelp-button-850059ff-b70a-4dbc-a355-75fc605cf9a3'
+            }),
+            (t.site_id = 65001361),
+            (t.main_code_plan = '850059ff-b70a-4dbc-a355-75fc605cf9a3'),
+            e('https://lwesoes.lco8k2pbwg.com/livechat.ashx?siteId='),
+            setTimeout(function () {
+              t.loaded || e('https://vue.livehelp100servicestandby.com/livechat.ashx?siteId=')
+            }, 5e3)
+        })(OnlineHelpAPI || {})
+      }
+    </script>
+
+    <!-- 越南站客服组件 Begin Live Chat Code-->
+    <!--Begin Live Chat Code-->
+    <div id="onlinehelp-button-78ef8a66-9626-4603-bbd3-21349c1526a2" style="display: none"></div>
+
+    <script type="text/javascript">
+      if ('%VITE_SITE%' === 'vietnam') {
+        var OnlineHelpAPI = OnlineHelpAPI || {}
+        ;(function (t) {
+          function e(e) {
+            var a = document.createElement('script'),
+              c = document.getElementsByTagName('script')[0]
+            ;(a.type = 'text/javascript'),
+              (a.async = !0),
+              (a.src = e + t.site_id),
+              c.parentNode.insertBefore(a, c)
+          }
+          ;(t.chat_buttons = t.chat_buttons || []),
+            t.chat_buttons.push({
+              code_plan: '78ef8a66-9626-4603-bbd3-21349c1526a2',
+              div_id: 'onlinehelp-button-78ef8a66-9626-4603-bbd3-21349c1526a2'
+            }),
+            (t.site_id = 65001573),
+            (t.main_code_plan = '78ef8a66-9626-4603-bbd3-21349c1526a2'),
+            e('https://psowoexvd.1lzq7zyjyce.com/livechat.ashx?siteId='),
+            setTimeout(function () {
+              t.loaded || e('https://vue.livehelp100servicestandby.com/livechat.ashx?siteId=')
+            }, 5e3)
+        })(OnlineHelpAPI || {})
+      }
+    </script>
+    <!--End Live Chat Code-->
+    <!--End Live Chat Code-->
+    <script>
+      window.CTY_USERNAME = ''
+    </script>
+    <!-- 图形验证 -->
+    <script src="https://static.botion.com/v1/boc.js"></script>
+  </body>
+</html>

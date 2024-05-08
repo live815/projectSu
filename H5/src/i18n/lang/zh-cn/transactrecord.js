@@ -1,0 +1,32 @@
+export default {
+  Transactrecord: {
+    funddetails: '资金明细',
+    all: '全部',
+    topup: '充值',
+    withdraw: '提现',
+    rebate: '返水',
+    filter: '筛选',
+    today: '今天',
+    yesterday: '昨天',
+    sevendays: '7天',
+    tip1: '近30天',
+    totalrevenue: '总进账:',
+    Totalbilling: '总出账：',
+    transfer: '转账',
+    dividend: '红利',
+    Systemadjust: '系统调整',
+    livestream: '直播',
+    success: '成功',
+    fail: '失败',
+    Process: '处理中',
+    UnderReview:'审核中',
+    nomore: '没有更多了',
+    tip2: '还没有新的记录',
+    rechargenow: '立即充值',
+    tip3: '获取数据失败',
+    Fundtype: '资金类型',
+    Fundingstatus: '资金状态',
+    reset: '重置',
+    sure: '确定'
+  }
+}
